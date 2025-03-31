@@ -1,0 +1,103 @@
+ul{
+    list-style: none;
+}
+#dash{
+    font-size: 2rem;
+    padding-top:1rem;
+}
+a{
+    font-size: 1.5rem;
+}
+#dashboard{
+    background-color: gold;
+    width:15rem;
+    height:100vh;
+    grid-area: dashboard;
+}
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    margin-right: 1rem;
+}
+nav:not(#title){
+    margin-left: var(--margin-left-nav-small);
+    margin-top:2rem;
+}
+a img:not(#dashimg){
+    margin-right:1rem;
+}
+#dashimg{
+    width:2rem;
+    margin-right:0.75rem;
+}
+a{
+    display: flex;
+    align-items: center;
+}
+a:not(#dash){
+    margin-top:1rem;
+}
+#title{
+    margin-left:1.75rem;
+}
+*{
+    --margin-left-nav-small: 2rem;
+}
+.icon{
+    width:1.5rem;
+}
+#header{
+    height:20vh;
+}
+#topHeader{
+    display:flex;
+}
+#searchBar{
+    background-color:rgb(164, 164, 164);
+    height:1.5rem;
+    width:20rem;
+}
+#bottomHeader{
+    display:flex;
+}
+#bluebuttons{
+    display: grid;
+}
+#gray{
+    background-color: lightslategrey;
+}
+.project{
+    background-color: white;
+    border-radius: 5px;
+}
+#projects{
+    display:grid;
+}
+.buttons{
+    display: grid;
+}
+#announcements{
+    background-color: white;
+    border-radius:5px;
+    display:grid;
+}
+#profiles{
+    background-color:white;
+    border-radius:5px;
+    display:grid;
+}
+.container{
+    display:grid;
+    grid-template-areas: "dashboard maincontent";
+}
+#maincontent{
+    grid-area:maincontent;
+}
+#search{
+    display:flex;
+}
+#profile{
+    display:flex;
+}
